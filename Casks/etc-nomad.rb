@@ -5,11 +5,11 @@ cask "etc-nomad" do
 	sha256 ""
 	homepage "https://www.etcconnect.com/Products/Consoles/Eos-Family/"
 
-	url "https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id={download_id}"
-	pkg "ETCnomad Eos Mac {version}.pkg",
+	url "https://www.etcconnect.com/WorkArea/DownloadAsset.aspx?id=#{download_id}"
+	pkg "ETCnomad Eos Mac #{version}.pkg",
 		choices: [
 			{
-				
+
 			}
 		]
 end

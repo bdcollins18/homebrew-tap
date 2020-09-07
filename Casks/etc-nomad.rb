@@ -10,6 +10,7 @@ cask "etc-nomad" do
 	pkg "ETCnomad Eos Mac #{version}.pkg"
 	uninstall pkgutil: [
 		"com.ETC.pkg.ETCnomadEos",
-		"com.ETC.pkg.slp"
+		"com.ETC.pkg.slp",
+		"com.gemalto.ldk.rteinstaller"
 	]
 end

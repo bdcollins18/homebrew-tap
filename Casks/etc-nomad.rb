@@ -8,7 +8,7 @@ cask "etc-nomad" do
 
 	url "https://cdn.etcconnect.com/ETCnomad%20Eos%20Mac%20#{version}.zip"
 	pkg "ETCnomad Eos Mac #{version}.pkg"
-	uninstalll pkgutil: [
+	uninstall pkgutil: [
 		"com.ETC.pkg.ETCnomadEos",
 		"com.ETC.pkg.slp"
 	]
